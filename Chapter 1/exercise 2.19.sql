@@ -1,2 +1,0 @@
-select WarehouseID
-FROM warehouse;
