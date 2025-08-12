@@ -1,4 +1,4 @@
--- Question 1
+-- Question A
 SELECT *
 FROM customer;
 
@@ -8,3 +8,6 @@ FROM invoice;
 SELECT *
 FROM invoice_item;
 
+-- Question B
+select LastName, FirstName, Phone
+from customer;
