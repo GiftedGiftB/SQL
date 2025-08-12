@@ -16,3 +16,8 @@ from customer;
 select LastName, FirstName, Phone
 from customer
 where FirstName regexp 'Nikki';
+
+-- Question D
+select customer.LastName, customer.FirstName, customer.Phone, invoice.DateIn, invoice.DateOut
+from customer, invoice 
+where totalAmount > 100;
