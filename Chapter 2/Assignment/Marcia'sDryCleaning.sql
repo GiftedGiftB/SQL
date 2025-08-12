@@ -49,7 +49,11 @@ from invoice;
 select count(*) as total_customer
 from customer;
 
-
+-- Question K
+select LastName, FirstName, count(*) as customer_count
+from Customer
+GROUP BY LastName, FirstName
+ORDER BY LastName, FirstName;
 
 
 
