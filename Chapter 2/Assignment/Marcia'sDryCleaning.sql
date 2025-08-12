@@ -45,6 +45,9 @@ from invoice;
 select avg(totalAmount) as avg_totalAmount
 from invoice;
 
+-- Question J
+select count(*) as total_customer
+from customer;
 
 
 
