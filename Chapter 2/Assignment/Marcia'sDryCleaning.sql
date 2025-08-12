@@ -31,3 +31,8 @@ where FirstName regexp '^B';
 select  LastName, FirstName, Phone
 from customer
 where LastName regexp 'cat';
+
+-- Question G
+select LastName, FirstName, Phone
+from customer
+where phone like '_23%';
