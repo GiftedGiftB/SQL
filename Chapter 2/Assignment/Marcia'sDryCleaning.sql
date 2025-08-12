@@ -25,4 +25,9 @@ where totalAmount > 100;
 -- Question E
 select LastName, FirstName, Phone
 from customer
-where FirstName regexp 'B'
+where FirstName regexp '^B';
+
+-- Question F
+select  LastName, FirstName, Phone
+from customer
+where LastName regexp 'cat';
