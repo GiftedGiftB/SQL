@@ -36,3 +36,7 @@ where LastName regexp 'cat';
 select LastName, FirstName, Phone
 from customer
 where phone like '_23%';
+
+-- Question H
+select MAX(totalAmount) as Max_totalAmount, MIN(totalAmount) as Min_totalAmount
+from invoice;
