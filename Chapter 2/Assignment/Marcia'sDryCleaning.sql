@@ -40,3 +40,13 @@ where phone like '_23%';
 -- Question H
 select MAX(totalAmount) as Max_totalAmount, MIN(totalAmount) as Min_totalAmount
 from invoice;
+
+-- Question I
+select avg(totalAmount) as avg_totalAmount
+from invoice;
+
+
+
+
+
+
